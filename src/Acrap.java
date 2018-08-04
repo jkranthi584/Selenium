@@ -7,6 +7,9 @@ public class Acrap {
 		// TODO Auto-generated method stub
 
 		int temp;
+		//i know conflict 
+		//i don't like confict
+		// let see if it creates one
 		boolean isPrime =true;
 		
 		int num=0;
