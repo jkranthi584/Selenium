@@ -5,7 +5,7 @@ public class Acrap {
 
 
 		int temp, leore;
-              int dlj, dlll, dlj;
+              int dlj, dlll, dll;
 		//dljfld ldjfldj
 		//djfd dlfjdljfd
 
