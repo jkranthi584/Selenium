@@ -8,7 +8,9 @@ public class GitBranch {
 		int temp,num=10;
    for(int i=2; i<=num/2; i++){
 			//there you go
-	   
+	   //we wont care
+	   // ye we wont
+	   // beleive it
 			temp = num%i;
 			if(temp==0){
 				isPrime=false;
