@@ -15,7 +15,9 @@ public class Leo {
  * 7 step) now supply your local code git stash apply
  * 8 step) git diff src/leo.java see the modification
  * see what was already in the repo and what you have added 
- * 
+ * 9 step) git add *java
+ * 10 step) git commit -m "the commit"
+ * 11 step git push
  * 
  * 
  * 
