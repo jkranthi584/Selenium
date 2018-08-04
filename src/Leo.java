@@ -2,6 +2,7 @@
 public class Leo {
 
  int i=5;
+ int k=9;
 
 
 	public static void m() {
@@ -11,5 +12,6 @@ public class Leo {
   public static void anotherMethond() {
 	  int f=999;
 	  System.out.println(f);
+	  System.out.println("i like rock");
   }
 }
