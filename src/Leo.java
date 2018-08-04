@@ -18,4 +18,8 @@ public class Leo {
   public static void anotherMethonddfd() {
 	   System.out.println("care");
   }
+	private static void my(){
+		String f ="joker";
+		 System.out.println(f);
+	}
 }
