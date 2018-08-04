@@ -8,7 +8,7 @@ public class GitBranch {
 		int temp,num=10;
    for(int i=2; i<=num/2; i++){
 			//there you go
-	      // ok we wont go
+	   
 			temp = num%i;
 			if(temp==0){
 				isPrime=false;
