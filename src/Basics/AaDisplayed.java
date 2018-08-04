@@ -20,7 +20,7 @@ public class AaDisplayed {
 	WebDriver	driver = new FirefoxDriver();
 		/*System.setProperty("webdriver.chrome.driver","C://Users//ccomp//Desktop//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();*/
-	
+	//right on
 	driver.get("https://www.aa.com/");
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	  driver.findElement(By.xpath("//*[@id='bookingModule']/div[1]/div[1]/ul/li[2]/label")).click();
