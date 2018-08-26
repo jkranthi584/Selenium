@@ -4,10 +4,29 @@ public class PrintUniqueNumbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[]={1,9,9,8,8,5,3,22,3,9,1,1,8,4,3,3,4,7,99};
-	     int arry[]= {5,9,0,22,92};    
+		int arr[]={11,9,9,8,8,5,3,22,33,9,1,1,8,4,3,3,4,7,99};
+		//int arr[]= {5,4,5,6,5,4,3,5,4,6};
+	     int ar[]= {5,9,0,22,92};    
 		ArrayList<Integer> arre = new ArrayList<Integer>();
 		String right ="maaarrllddf";
+
+		  for(int i=0; i<arr.length; i++) {
+			  int k=0; 
+			  if(!arre.contains(arr[i])) {
+				  arre.add(arr[i]); k++;
+				  
+				  for(int j=i+1; j<arr.length; j++) {
+					  
+				  
+				        if(arr[i]==arr[j])
+				        	k++;
+				  }
+				   
+				  
+			  }
+			  if(k==1)
+				   System.out.println(arr[i]+" is unique");
+		  }
 	   /* for(int i=0; i<arr.length; i++) {
 	    	boolean common= false;
 	    	for(int j=0; j<arry.length; j++) {

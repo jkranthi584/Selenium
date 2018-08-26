@@ -59,7 +59,7 @@ public class Slider2 {
 					e.printStackTrace();
 				}
 				 
-				Actions act = new Actions(driver);
+			Actions act = new Actions(driver);
 		         Dimension dim = ele.getSize();
 		         //while(text.equals("8000"))
 		         
@@ -71,15 +71,16 @@ public class Slider2 {
 	        	text =   driver.findElement(By.className("to-price-text")).getText();
 	        	 String arr[] = text.split(" ");
 		          //System.out.println(arr[1]);
+
 		           NumberFormat n= NumberFormat.getNumberInstance();
 		           ///parsing the text into a Number
 		              Number no = n.parse(arr[1]);
+
 		              // saving the string representation of an object into a text
-		               arr[1]= no.toString();
+		                      arr[1]= no.toString();
+
 		                //parsing the text 
-		                 
-	        	
-	        	number= Integer.parseInt(arr[1]);
+		              number= Integer.parseInt(arr[1]);
 	        	
 	        	
 	        	while(!ele.isDisplayed()) {
@@ -89,7 +90,7 @@ public class Slider2 {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-	        }
+	                   }
 	         
 	                //price2 =   Integer.parseInt(price);
 	              /* if(m<=price2) {

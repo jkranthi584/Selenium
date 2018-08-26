@@ -9,10 +9,9 @@ public class Leo {
  * you did overide something, then conflict will occur
  * 3 step) check the status git status
  * 4 step) git add * java
- * 5 step) git stash save the local work make it invisible
- * 6 step) git stash download the code from repo
- * git pull origin master
- * 7 step) now supply your local code git stash apply
+ * 5 step) git stash save the local work, make it invisible
+ * 6 step) git stash download the code from repo, git pull origin master
+ * 7 step) now supply your local code: git stash apply
  * 8 step) git diff src/leo.java see the modification
  * see what was already in the repo and what you have added 
  * 9 step) git add *java

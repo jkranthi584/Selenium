@@ -4,11 +4,11 @@ public class GenerateRandomNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-         /* Random rnd = new Random();
+          Random rnd = new Random();
           for(int i=0; i<5; i++) {
         	 int number = rnd.nextInt(200)+1;
         	 System.out.println(number);
-          }*/
+          }
 		int[] arr={105,9,23,8,7,45,2,88,11,99};
 		
 		 for(int i=arr.length-1; i>=0; i--) {
