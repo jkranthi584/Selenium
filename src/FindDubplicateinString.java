@@ -3,9 +3,10 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 
 public class FindDubplicateinString {
-public static void main(String[] args) {
+public static void main(String[] args) throws Exception {
 	
 	String s = "lolidosuckreallysuck";
 	//String s ="aaaabbbccd";
@@ -122,7 +123,32 @@ public static void main(String[] args) {
 	    // System.out.println(arr[arr.length-1]+", ");
 	     for(int i=br.length-1; i>=0; i--)
 	    	 System.out.print(br[i]);
+	     System.out.println();
+	     
 	      
+	    	int ar[]= {6,1,2,2,4,2,7,3,2,1};
+	    	int sumright=0;
+	    	int sumleft=0;
+	        int lastIndex = ar.length-1;
+	        int startIndex =0;
+	    	
+	    	while(true) {
+	    		
+	    		if(sumleft>sumright)
+	    			sumright+=ar[lastIndex--];
+	    		else
+	    			sumleft+=ar[startIndex++];
+	    		if(startIndex>lastIndex) {
+	    			
+	    			if(sumright==sumleft) {
+	    				System.out.println("startIndex: "+startIndex);
+	    				break;
+	    			}else
+	    				throw new Exception("not a valid array");
+	    		}
+	    	}
+	    	System.out.println(lastIndex);
+	    
   }
 	    
 }

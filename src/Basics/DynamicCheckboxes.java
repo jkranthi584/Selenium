@@ -22,6 +22,9 @@ public static void main(String[] args) {
 	List <WebElement> elements = driver.findElements
 			(By.xpath("//input[@name='lang' and @type='radio']"));
 	
+	
+	
+	
 	    for(int i=0; i<elements.size(); i++){
 	    	
 	      WebElement local_radio=elements.get(i);
@@ -31,6 +34,8 @@ public static void main(String[] args) {
 	if(value.equalsIgnoreCase("Ruby")){
 		
 		local_radio.click();
+	
+	
 	}
 	      
 	    	

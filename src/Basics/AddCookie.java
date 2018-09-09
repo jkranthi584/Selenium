@@ -35,6 +35,9 @@ public class AddCookie {//getcookiesmethond returns Set of cookies
 	            	 driver.manage().deleteCookie(cooki);
 	                 System.out.println("coookie is deleted and its name was :"+cooki.getName());
 	             }*/
+	            
+	      
+	        
 	}
 	
 }
