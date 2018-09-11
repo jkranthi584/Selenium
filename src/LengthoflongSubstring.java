@@ -6,15 +6,15 @@ public class LengthoflongSubstring {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-         
-		 String m="rightwrong";
+		String m="righgtwron";
+		 //String m="rightwrong";
 		  char[] cha = m.toCharArray();
 		int len =0;
 		 Map<Character,Integer>maps = new HashMap<Character,Integer>();
 		 
-		   for(char ch:cha) {
+		   for(char ch:m.toCharArray()) {
 			   
-			   /*if(!maps.containsKey(ch)) 
+			   if(!maps.containsKey(ch)) 
 				   maps.put(ch, 1);
 			   else {
 				  // maps.put(ch, maps.get(ch)+1);
@@ -25,17 +25,18 @@ public class LengthoflongSubstring {
 				   
 			   
 		   }
+		 
 		   System.out.println(maps.toString());
 		   System.out.println("size of the map: "+maps.size());
-		   System.out.println(Math.max(len, maps.size()));*/
+		 //  System.out.println(Math.max(len, maps.size()));
 			   
-			     if(maps.containsKey(ch))
+			    /* if(maps.containsKey(ch))
 			    	 maps.put(ch, maps.get(ch)+1);
 			     else
 			     
 			    	 maps.put(ch, 1);
-		   }
-		           Set<Character> keys = maps.keySet();
+		   }*/
+		         /*  Set<Character> keys = maps.keySet();
 		           for(char key:keys) {
 		        	   if(maps.get(key)>1)
 		        		   System.out.println(key+" repeated "+maps.get(key)+" times");
@@ -44,7 +45,7 @@ public class LengthoflongSubstring {
 		        	     else
 		        	    	 if(maps.get(key)==1)
 		        	    	 System.out.println(key+" is a unique key");
-		           }
+		           }*/
 		       
 	}
 

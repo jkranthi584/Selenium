@@ -15,10 +15,10 @@ public class CompressStrings {
 		 int co=0;
 		 Set<Character> set = new LinkedHashSet<Character>();
 			for(int i=0; i<k.length(); i++) {
-				if(k.charAt(i)==temp) {
+				if(k.charAt(i)==temp) 
 					sum++;
 					
-				}
+				
 				else {
 		
 			
