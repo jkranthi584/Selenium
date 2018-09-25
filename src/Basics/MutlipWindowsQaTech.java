@@ -66,6 +66,7 @@ public class MutlipWindowsQaTech {
 	            
 	            //Wait for 20 seconds for the new window and throw exception if not found
 	                 
+	            
 	         for(int i=0; i<20; i++){
 	        	 
 	        	 if(allwindowHandles.size() > 1){
@@ -77,9 +78,9 @@ public class MutlipWindowsQaTech {
 	        		 
 	        		 driver.switchTo().window(newWindowHandle);
 	        		         break;
-	        	 }else{
+	        	 }else
 	        		 Thread.sleep(1000);
-	        	 }
+	        	 
 	        	 
 	        	 if(cHandle == newWindowHandle){
 	        		 throw new RuntimeException("Time out - No Window Found");

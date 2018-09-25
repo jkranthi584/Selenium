@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -85,8 +86,44 @@ public class CompressStrings {
 			 System.out.println(t+""+sumo);
 			 
 			
+		 String ui="huknnnnnjjkkklhhin";
+		 /*String[] gh= ui.split("");
+		 int c=1;
+		 ArrayList <String>arr = new  ArrayList<String>();
+		 for(int i=0;i<gh.length; i++) {
+			 arr.add(gh[i]);
+			 if(i+1<gh.length && gh[i].equalsIgnoreCase(gh[i+1])) {
+				 //if(arr.contains(gh[i+1]))
+				    arr.remove(gh[i+1]);
+				  c++;
+			 }
+			 else {
+				 if(c>1) arr.add(Integer.toString(c));
+				  c=1;
+			 }
+				 
 		 
-	
+		 }
+		 System.out.println(arr.toString());
+		     Object[] hj = arr.toArray();
+		     for(Object obj: hj)
+		    	 System.out.print(obj);*/
+		 String pi="";
+	      for(int i=0,count=1; i<ui.length(); i++) {
+	    	  //int count=1;
+	    	  if(i+1<ui.length() && ui.charAt(i)==ui.charAt(i+1))
+	    		  count++;
+	    	  else {
+	    		pi+= Character.toString(ui.charAt(i));
+	    	     if(count>1)
+	    	    	pi+= Integer.toString(count);
+	    	       count=1;
+	    		  
+	    	  }
+	        
+	      }
+	      System.out.println(pi);
+	      
 	}
 
 }
